@@ -22,7 +22,7 @@ namespace ZXing.Core
    /// The base class for luminance sources which supports 
    /// cropping and rotating based upon the luminance values.
    /// </summary>
-   internal abstract class BaseLuminanceSource : LuminanceSource
+   public abstract class BaseLuminanceSource : LuminanceSource
    {
       // the following channel weights give nearly the same
       // gray scale picture as the java version with BufferedImage.TYPE_BYTE_GRAY

@@ -29,7 +29,7 @@ namespace ZXing.Core
    /// </author>
    /// <author>www.Redivivus.in (suraj.supekar@redivivus.in) - Ported from ZXING Java Source 
    /// </author>
-   internal abstract class LuminanceSource
+   public abstract class LuminanceSource
    {
       private int width;
       private int height;
