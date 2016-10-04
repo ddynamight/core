@@ -19,7 +19,7 @@ using System.Drawing.Imaging;
 using System.Drawing;
 using System.Runtime.InteropServices;
 
-namespace ZXing
+namespace ZXing.Core
 {
    public partial class BitmapLuminanceSource : BaseLuminanceSource
    {

@@ -22,7 +22,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 #endif
 
-namespace ZXing
+namespace ZXing.Core
 {
    public partial class BitmapSourceLuminanceSource : BaseLuminanceSource
    {
