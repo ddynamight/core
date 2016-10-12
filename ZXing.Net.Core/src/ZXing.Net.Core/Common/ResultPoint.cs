@@ -125,7 +125,7 @@ namespace ZXing.Common
       /// Orders an array of three ResultPoints in an order [A,B,C] such that AB &lt; AC and
       /// BC &lt; AC and the angle between BC and BA is less than 180 degrees.
       /// </summary>
-      internal static void orderBestPatterns(ResultPoint[] patterns)
+      public static void orderBestPatterns(ResultPoint[] patterns)
       {
          // Find distances between pattern centers
          float zeroOneDistance = distance(patterns[0], patterns[1]);
