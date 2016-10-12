@@ -27,7 +27,7 @@ namespace ZXing.Core
    /// 
    /// <author>dswitkin@google.com (Daniel Switkin)</author>
    /// </summary>
-   internal abstract class Binarizer
+   public abstract class Binarizer
    {
       private readonly LuminanceSource source;
 

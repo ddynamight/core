@@ -48,7 +48,7 @@ namespace ZXing.Common
          return this[i];
       }
 
-      internal bool this[int i]
+      public bool this[int i]
       {
          get
          {

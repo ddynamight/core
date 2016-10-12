@@ -18,7 +18,7 @@ namespace ZXing.Core
    /// <summary>
    /// Contains conversion support elements such as classes, interfaces and static methods.
    /// </summary>
-   internal static class SupportClass
+   public static class SupportClass
    {
       /*******************************/
       /// <summary>
