@@ -22,7 +22,7 @@ namespace ZXing.Reader
    /// been due to a mis-detection.
    /// <author>Sean Owen</author>
    /// </summary>
-   internal sealed class FormatException : ReaderException
+   internal sealed class FormatException : ZXingReaderException
    {
       private static readonly FormatException instance = new FormatException();
 

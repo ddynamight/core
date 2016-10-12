@@ -25,12 +25,12 @@ namespace ZXing.Reader
 	/// </summary>
 	/// <author>Sean Owen</author>
 	// [Serializable]
-	internal class ReaderException : Exception
+	public class ZXingReaderException : Exception
 	{
       /// <summary>
       /// Gets the instance.
       /// </summary>
-		public static ReaderException Instance
+		public static ZXingReaderException Instance
 		{
 			get
 			{
@@ -49,7 +49,7 @@ namespace ZXing.Reader
 		// temporary measures, pending the big cleanup.
 		
 		//UPGRADE_NOTE: Final was removed from the declaration of 'instance '. "ms-help://MS.VSCC.v80/dv_commoner/local/redirect.htm?index='!DefaultContextWindowIndex'&keyword='jlca1003'"
-		private static readonly ReaderException instance = new ReaderException();
+		private static readonly ZXingReaderException instance = new ZXingReaderException();
 		
 		// EXCEPTION TRACKING SUPPORT
 		// Identifies who is throwing exceptions and how often. To use:
@@ -61,9 +61,9 @@ namespace ZXing.Reader
 		//  private static Map<String,Integer> throwers = new HashMap<String,Integer>(32);
 
       /// <summary>
-      /// Initializes a new instance of the <see cref="ReaderException"/> class.
+      /// Initializes a new instance of the <see cref="ZXingReaderException"/> class.
       /// </summary>
-		protected ReaderException()
+		protected ZXingReaderException()
 		{
 			// do nothing
 		}

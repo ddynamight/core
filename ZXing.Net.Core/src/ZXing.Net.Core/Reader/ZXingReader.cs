@@ -31,7 +31,7 @@ namespace ZXing.Reader
    /// </summary>
    /// <author>Sean Owen</author>
    /// <author>dswitkin@google.com (Daniel Switkin)</author>
-   public interface Reader
+   public interface ZXingReader
    {
       /// <summary>
       /// Locates and decodes a barcode in some format within an image.

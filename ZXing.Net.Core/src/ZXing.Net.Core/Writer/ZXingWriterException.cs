@@ -24,30 +24,30 @@ namespace ZXing.Writer
 	/// </summary>
 	/// <author>dswitkin@google.com (Daniel Switkin)</author>
 	// [Serializable]
-	internal sealed class WriterException : Exception
+	public sealed class ZXingWriterException : Exception
 	{
       /// <summary>
-      /// Initializes a new instance of the <see cref="WriterException"/> class.
+      /// Initializes a new instance of the <see cref="ZXingWriterException"/> class.
       /// </summary>
-		public WriterException()
+		public ZXingWriterException()
 		{
 		}
 
       /// <summary>
-      /// Initializes a new instance of the <see cref="WriterException"/> class.
+      /// Initializes a new instance of the <see cref="ZXingWriterException"/> class.
       /// </summary>
       /// <param name="message">The message.</param>
-      public WriterException(String message)
+      public ZXingWriterException(String message)
          :base(message)
 		{
 		}
 
       /// <summary>
-      /// Initializes a new instance of the <see cref="WriterException"/> class.
+      /// Initializes a new instance of the <see cref="ZXingWriterException"/> class.
       /// </summary>
       /// <param name="message">The message.</param>
       /// <param name="innerExc">The inner exc.</param>
-      public WriterException(String message, Exception innerExc)
+      public ZXingWriterException(String message, Exception innerExc)
          : base(message, innerExc)
       {
       }
