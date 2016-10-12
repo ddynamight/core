@@ -22,14 +22,14 @@ namespace ZXing.Core
    /// 
    /// </summary>
    [Obsolete("Use RGBLuminanceSource with the argument BitmapFormat.RGB565")]
-   internal sealed class RGB565LuminanceSource : RGBLuminanceSource
+   public sealed class RGB565LuminanceSource : RGBLuminanceSource
    {
       /// <summary>
       /// Initializes a new instance of the <see cref="RGB565LuminanceSource"/> class.
       /// </summary>
       /// <param name="width">The width.</param>
       /// <param name="height">The height.</param>
-      RGB565LuminanceSource(int width, int height)
+      public RGB565LuminanceSource(int width, int height)
          : base(width, height)
       {
       }

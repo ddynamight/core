@@ -68,7 +68,7 @@ namespace ZXing.Core
    /// <summary>
    /// Luminance source class which support different formats of images.
    /// </summary>
-   internal partial class RGBLuminanceSource : BaseLuminanceSource
+   public partial class RGBLuminanceSource : BaseLuminanceSource
    {
       /// <summary>
       /// Initializes a new instance of the <see cref="RGBLuminanceSource"/> class.

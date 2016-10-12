@@ -1,6 +1,6 @@
 ﻿{
   "name": "ZXing.Net.Core",
-  "version": "0.2.1-*",
+  "version": "0.2.2-*",
   "title": "ZXing.Net Core",
   "description": "Partial port of ZXing.Net on .Net Core.",
   "copyright": "Copyright 2016",
