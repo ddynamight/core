@@ -25,7 +25,7 @@ namespace ZXing.Common
    /// as well as a String interpretation of those bytes, if applicable.
    /// <author>Sean Owen</author>
    /// </summary>
-   internal sealed class DecoderResult
+   public sealed class DecoderResult
    {
       public byte[] RawBytes { get; private set; }
 

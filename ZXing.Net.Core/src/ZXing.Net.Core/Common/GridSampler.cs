@@ -31,7 +31,7 @@ namespace ZXing.Common
    /// </author>
    /// <author>www.Redivivus.in (suraj.supekar@redivivus.in) - Ported from ZXING Java Source 
    /// </author>
-   internal abstract class GridSampler
+   public abstract class GridSampler
    {
       /// <returns> the current implementation of {@link GridSampler}
       /// </returns>

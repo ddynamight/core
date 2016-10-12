@@ -24,7 +24,7 @@ namespace ZXing.Common.ReedSolomon
    /// </summary>
    /// <author>Sean Owen</author>
    /// <author>William Rucklidge</author>
-   internal sealed class ReedSolomonEncoder
+   public sealed class ReedSolomonEncoder
    {
       private readonly GenericGF field;
       private readonly IList<GenericGFPoly> cachedGenerators;

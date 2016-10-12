@@ -25,7 +25,7 @@ namespace ZXing.Common.Detector
    /// </author>
    /// <author>www.Redivivus.in (suraj.supekar@redivivus.in) - Ported from ZXING Java Source 
    /// </author>
-   internal sealed class MonochromeRectangleDetector
+   public sealed class MonochromeRectangleDetector
    {
       private const int MAX_MODULES = 32;
 

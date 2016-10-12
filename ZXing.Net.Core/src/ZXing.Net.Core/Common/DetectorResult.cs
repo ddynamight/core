@@ -25,7 +25,7 @@ namespace ZXing.Common
    /// </author>
    /// <author>www.Redivivus.in (suraj.supekar@redivivus.in) - Ported from ZXING Java Source 
    /// </author>
-   internal class DetectorResult
+   public class DetectorResult
    {
       public BitMatrix Bits { get; private set; }
       public ResultPoint[] Points { get; private set; }

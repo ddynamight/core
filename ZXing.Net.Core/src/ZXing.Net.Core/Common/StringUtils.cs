@@ -26,7 +26,7 @@ namespace ZXing.Common
    /// </summary>
    /// <author>Sean Owen</author>
    /// <author>Alex Dupre</author>
-   internal static class StringUtils
+   public static class StringUtils
    {
       private static String PLATFORM_DEFAULT_ENCODING = "UTF-8";
       public static String SHIFT_JIS = "SJIS";

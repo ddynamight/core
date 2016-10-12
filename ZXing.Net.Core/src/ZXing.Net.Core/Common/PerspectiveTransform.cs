@@ -25,7 +25,7 @@ namespace ZXing.Common
    /// </author>
    /// <author>www.Redivivus.in (suraj.supekar@redivivus.in) - Ported from ZXING Java Source 
    /// </author>
-   internal sealed class PerspectiveTransform
+   public sealed class PerspectiveTransform
    {
       private float a11;
       private float a12;

@@ -75,7 +75,7 @@ namespace ZXing.Core
       /// <param name="separator">The separator.</param>
       /// <param name="values">The values.</param>
       /// <returns></returns>
-      internal static string Join<T>(string separator, IEnumerable<T> values)
+      public static string Join<T>(string separator, IEnumerable<T> values)
       {
          var builder = new StringBuilder();
          separator = separator ?? String.Empty;

@@ -37,7 +37,7 @@ namespace ZXing.Common.ReedSolomon
    /// <author>Sean Owen</author>
    /// <author>William Rucklidge</author>
    /// <author>sanfordsquires</author>
-   internal sealed class ReedSolomonDecoder
+   public sealed class ReedSolomonDecoder
    {
       private readonly GenericGF field;
 
