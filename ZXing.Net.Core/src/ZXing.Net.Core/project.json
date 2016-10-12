@@ -1,7 +1,7 @@
 ﻿{
   "name": "ZXing.Net.Core",
   "version": "0.2.2-*",
-  "title": "ZXing.Net Core",
+  "title": "ZXing .Net Core",
   "description": "Partial port of ZXing.Net on .Net Core.",
   "copyright": "Copyright 2016",
   "authors": [
@@ -9,7 +9,7 @@
   ],
 
   "packOptions": {
-    "summary": ".Net Core port of ZXing.Net barcode reader/writer library (beta release).",
+    "summary": ".Net Core port of ZXing.Net barcode reader/writer library (base classes only).",
     "tags": [
       "Barcode",
       "ZXing",
@@ -20,7 +20,7 @@
     "owners": [
       "Harry Y"
     ],
-    "releaseNotes": "Partial porting of the core/common classes to .Net Core (Experimental). Note: The current release does NOT contain barcode encoding/decocing functionalites. It merely contains some base/common classes. (WIP)",
+    "releaseNotes": "Partial porting of the core/common classes to .Net Core (Experimental). Note: This package does NOT contain barcode encoding/decocing functionalites. It merely contains core/common classes.",
     "projectUrl": "https://github.com/zxingnet/core",
     "licenseUrl": "https://github.com/zxingnet/core/blob/master/LICENSE",
     "requireLicenseAcceptance": false
