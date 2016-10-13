@@ -16,17 +16,6 @@
 
 using System;
 using System.Collections.Generic;
-
-#if !NETFX_CORE
-#if !UNITY
-// using System.Windows.Media.Imaging;
-#else
-// using UnityEngine;
-#endif
-#else
-// using Windows.UI.Xaml.Media.Imaging;
-#endif
-
 using ZXing.Common;
 using ZXing.Core;
 
@@ -35,7 +24,7 @@ namespace ZXing.Reader
    /// <summary>
    /// Interface for a smart class to decode the barcode inside a bitmap object
    /// </summary>
-   public interface IBarcodeReader
+   public interface IBarcodeDecoder
    {
       /// <summary>
       /// event is executed when a result point was found
@@ -112,29 +101,5 @@ namespace ZXing.Reader
       /// <returns></returns>
       Result Decode(LuminanceSource luminanceSource);
 
-#if !NETFX_CORE
-#if !UNITY
-      /// <summary>
-      /// Decodes the specified barcode bitmap.
-      /// </summary>
-      /// <param name="barcodeBitmap">The barcode bitmap.</param>
-      /// <returns>the result data or null</returns>
-      // Result Decode(Bitmap barcodeBitmap);
-#else
-      /// <summary>
-      /// Decodes the specified barcode bitmap.
-      /// </summary>
-      /// <param name="rawColor32">The image as Color32 array.</param>
-      /// <returns>the result data or null</returns>
-      Result Decode(Color32[] rawColor32, int width, int height);
-#endif
-#else
-      /// <summary>
-      /// Decodes the specified barcode bitmap.
-      /// </summary>
-      /// <param name="barcodeBitmap">The barcode bitmap.</param>
-      /// <returns>the result data or null</returns>
-      Result Decode(WriteableBitmap barcodeBitmap);
-#endif
    }
 }
