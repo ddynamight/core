@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Text;
 
-
 namespace BigIntegerLibrary
 {
 
@@ -9,6 +8,7 @@ namespace BigIntegerLibrary
     /// Integer inefficiently represented internally using base-10 digits, in order to allow a
     /// visual representation as a base-10 string. Only for internal use.
     /// </summary>
+    [Obsolete("Use System.Numerics")]
     sealed class Base10BigInteger
     {
 
