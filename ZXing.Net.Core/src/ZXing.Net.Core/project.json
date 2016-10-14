@@ -23,6 +23,7 @@
     "releaseNotes": "Partial porting of the core/common classes to .Net Core (Experimental). Note: This package does NOT contain barcode encoding/decocing functionalites. It merely contains core/common classes.",
     "projectUrl": "https://github.com/zxingnet/core",
     "licenseUrl": "https://github.com/zxingnet/core/blob/master/LICENSE",
+	"iconUrl": "https://raw.githubusercontent.com/zxingnet/core/master/ZXing.Net.Core/src/ZXing.Net.Core/Icon-ZXing.Net.Core.png",
     "requireLicenseAcceptance": false
   },
 
