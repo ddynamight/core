@@ -26,8 +26,8 @@ namespace ZXing.Common
    /// <author>Sean Owen</author>
    public sealed class CharacterSetECI : ECI
    {
-      internal static readonly IDictionary<int, CharacterSetECI> VALUE_TO_ECI;
-      internal static readonly IDictionary<string, CharacterSetECI> NAME_TO_ECI;
+      public static readonly IDictionary<int, CharacterSetECI> VALUE_TO_ECI;
+      public static readonly IDictionary<string, CharacterSetECI> NAME_TO_ECI;
 
       private readonly String encodingName;
 
