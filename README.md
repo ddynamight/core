@@ -12,6 +12,15 @@ The goal of this project is to create a portable barcode scanning library for .N
 * Unity (Windows Universal)
 
 
-_Nuget package available: [ZXing.Net.Core](https://www.nuget.org/packages/ZXing.Net.Core/)_
+
+### Nuget package available: 
+
+* [ZXing.Net.Core](https://www.nuget.org/packages/ZXing.Net.Core/)_
+
+
+### Notes
+
+_Note that ZXing .Net Core does not correspond to the Core component of the original ZXing library. ZXing .Net Core comprises a much smaller subset._
+
 
 
